@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/4thQuarter-Analytics/4thqa-backend-test-package",
-    packages=setuptools.find_packages(),
+    packages=["test_package"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
